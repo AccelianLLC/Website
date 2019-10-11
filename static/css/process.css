@@ -1,0 +1,38 @@
+/******************************************/
+/* Override Styles for Bootstrap   		  */
+/* Keep this stuff commented! - CW 		  */
+/* Layout will be:				   		  */
+/* Comment[block of CSS w/ no linebreaks] */
+/* Followed by linebreak, then repeat     */
+/* 										  */
+/* Style.CSS is ONLY for global classes   */
+/* and overrides. Page-specific classes   */
+/* go in page or element-specific sheets. */
+/******************************************/
+
+/* Styles for individual detail items & associated links */
+.detail-item-content{
+    background-color: #E6E6E6;
+    border: 1px solid #CDCDCD;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+.detail-item-link {
+    background: none repeat scroll 0 0 #EFEFEF;
+    bottom: 1.77em;
+    left: 4.2em;
+    margin-bottom: 2em;
+    padding: 20px;
+    position: relative;
+    width: 10em;
+}
+.content-buffer{
+	margin-top: 100px;
+}
+.content-header {
+    background: none repeat scroll 0 0 #FF9900;
+    color: #FFFFFF;
+    padding: 10px;
+}

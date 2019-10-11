@@ -1,0 +1,162 @@
+/******************************************/
+/* Override Styles for Bootstrap   		  */
+/* Keep this stuff commented! - CW 		  */
+/* Layout will be:				   		  */
+/* Comment[block of CSS w/ no linebreaks] */
+/* Followed by linebreak, then repeat     */
+/* 										  */
+/* Style.CSS is ONLY for global classes   */
+/* and overrides. Page-specific classes   */
+/* go in page or element-specific sheets. */
+/******************************************/
+/* Global Overrides for bootstrap HTML elements */
+h2, .h2 {
+    font-size: 28px;
+}
+h3 {
+    background: none repeat scroll 0 0 #FF9900;
+    padding: 10px;
+	color: #FFFFFF;
+}
+h4 {
+    background: none repeat scroll 0 0 #E0E0E0;
+    padding: 5px;
+}
+/* Overrides for Global Navigation Bar */
+.navbar-default{
+	background-color: #055390;
+	color: #ffffff;
+}
+.navbar-default .navbar-brand{
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #ffffff;
+	line-height:39px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: #ff9900;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus{
+	background-color: #ff9900;
+}
+.nav > li > a{
+	height: 70px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus{
+	background-color: #ff9900;
+	color: #4a4a4a;
+}
+.carousel-caption{
+	background-color: rgba(0, 0, 0, 0.5);
+    left: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 10%;
+}
+.carousel-caption a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.col-md-4{
+    background-color: #E6E6E6;
+    border: 1px solid #CDCDCD;
+    margin-bottom: 25px;
+    margin-left: 1.7%;
+    margin-right: 1.5%;
+    min-height: 393px;
+    min-width: 200px;
+    width: 30%;
+}
+.container{
+	background-color:#ffffff;
+	-webkit-box-shadow: 0px 0px 50px 0px rgba(205,205,205,1);
+	-moz-box-shadow: 0px 0px 50px 0px rgba(205,205,205,1);
+	box-shadow: 0px 0px 50px 0px rgba(205,205,205,1);
+	margin-bottom: 50px;
+}
+.separator{
+    border: 1px solid #EFEFEF;
+    width: 50%;
+}
+blockquote{
+	border-left: 5px solid #055390;
+	margin: 20px;
+}
+.active > a {
+    color: #FFFFFF !important;
+}
+.dl-horizontal dt {
+    clear: left;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 199px;
+}
+dt, dd {
+    word-wrap: break-word;
+}
+.carousel-inner > .item {
+    max-height: 300px;
+}
+/*Global Page Styles (not overrides)*/
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+.underline{
+	font-style: underline;
+}
+.white{
+	color: #ffffff;
+}
+.green{
+	color: #39b54a;
+}
+.footer-text {
+    color: #696969;
+    font-size: 85%;
+    font-style: italic;
+}
+.footer {
+    position: absolute;
+    right: 0;
+}
+.footer img {
+    height: 2%;
+    width: 2%;
+}
+.glyphicon.bg-icon {
+    font-size: 2em;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0.75em;
+}
+.carousel-content {
+    background: none repeat scroll 0 0 #FF9900;
+    bottom: 0.71em;
+    color: #FFFFFF;
+    position: relative;
+    font-style: oblique;
+    padding: 20px;
+    font-family: status-bar;
+}
+.small-block {
+    background: none repeat scroll 0 0 #055390;
+    color: #FFFFFF;
+    padding: 10px;
+}
+#easter-bunny {
+    cursor: none;
+    height: 1px;
+    overflow: hidden;
+    position: relative;
+    right: 200px;
+    width: 1px;
+}
